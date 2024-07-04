@@ -1,11 +1,18 @@
 import React, { useState } from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import { Link } from 'react-scroll'
+import {useTypewriter, Cursor} from 'react-simple-typewriter'
 
 
 export const Home = () => {
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
+
+  const [text] = useTypewriter ({
+    words: ['Meron Amer Shaoo', 'Meron Amer Shaoo', 'Meron Amer Shaoo'],
+    loop:{},
+    typeSpeed: 80
+  });
 
   return (
     <div name='home' className='w-full h-screen bg-[#0a192f]'>
@@ -13,7 +20,14 @@ export const Home = () => {
         {/* Container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
             <p className='text-red-600'>Hello, my name is</p>
-            <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Meron Amer Shaoo</h1>
+            <h1 style= {{margin:"50px"}} className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
+              <span >
+                {text}
+              </span>
+              <span>
+                <Cursor />
+              </span>
+            </h1>
             <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a Software Developer in the works.</h2>
             <p className='text-[#8892b0] py-4 max-w-[700px]'>I'm a third-year at the University of California, San Diego, studying Computer Science. 
               I am focused on developing the necessary skills and techniques through various personal 
