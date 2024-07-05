@@ -21,7 +21,7 @@ export const Home = () => {
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
             <p className='text-red-600'>Hello, my name is</p>
             <h1 style= {{margin:"50px"}} className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
-              <span >
+              <span>
                 {text}
               </span>
               <span>
@@ -29,7 +29,7 @@ export const Home = () => {
               </span>
             </h1>
             <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a Software Developer in the works.</h2>
-            <p className='text-[#8892b0] py-4 max-w-[700px]'>I'm a third-year at the University of California, San Diego, studying Computer Science. 
+            <p className='text-[#8892b0] py-4 max-w-[700px]'>I'm a third-year undergrad at the University of California, San Diego, studying Computer Science. 
               I am focused on developing the necessary skills and techniques through various personal 
               and group projects to become a full-fledged Software Developer.</p>
             <div>
