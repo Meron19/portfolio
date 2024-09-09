@@ -1,7 +1,7 @@
 import React from 'react'
 // change these imports of images to images of actual projects
-import React1 from '../assets/assets/react.png'
-import Cat from '../assets/assets/cat.jpg'
+import MyBookList from '../assets/assets/MyBookList.png'
+import Saigon from '../assets/assets/Saigon.png'
 
 export const Projects = () => {
     return (
@@ -18,19 +18,19 @@ export const Projects = () => {
                     {/* Grid Item(duplicate to add more projects) */}
                     {/* Change URL to actual image of project */}
                     <div
-                        style={{ backgroundImage: `url(${React1})` }}
+                        style={{ backgroundImage: `url(${MyBookList})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
                     >
 
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Application
+                            <span className='text-2xl font-bold text-white tracking-wider pb-3'>
+                                MyBookList
                             </span>
-                            <div className='pt-8 text-center'>
-                                <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                                </a>
+
+                            <h1 className='text-center text-base'>Personal project focused creating a GoodReads clone to keep track of books I want to read.</h1>
+
+                            <div className='pt-4 text-center'>
 
                                 <a href="/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
@@ -41,72 +41,24 @@ export const Projects = () => {
                     {/* Grid Item(duplicate to add more projects) */}
                     {/* Change URL to actual image of project */}
                     <div
-                        style={{ backgroundImage: `url(${Cat})` }}
+                        style={{ backgroundImage: `url(${Saigon})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
                     >
 
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Application
+                            <span className='text-2xl font-bold text-white tracking-wider pb-3'>
+                                MentorMentee App
                             </span>
+                            <h1 className='text-center text-base'>Group project focused creating a mentor-mentee matching web app for a nonprofit SaigonChildren.</h1>
                             <div className='pt-8 text-center'>
-                                <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                                </a>
-
-                                <a href="/">
+                                <a href="https://github.com/lahrry/MentorMentee_App">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
                         </div>
                     </div>
-                                        {/* Grid Item(duplicate to add more projects) */}
-                    {/* Change URL to actual image of project */}
-                    <div
-                        style={{ backgroundImage: `url(${Cat})` }}
-                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-                    >
 
-                        {/* Hover Effects */}
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Application
-                            </span>
-                            <div className='pt-8 text-center'>
-                                <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                                </a>
-
-                                <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    {/* Grid Item(duplicate to add more projects) */}
-                    {/* Change URL to actual image of project */}
-                    <div
-                        style={{ backgroundImage: `url(${React1})` }}
-                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-                    >
-
-                        {/* Hover Effects */}
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Application
-                            </span>
-                            <div className='pt-8 text-center'>
-                                <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                                </a>
-
-                                <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
