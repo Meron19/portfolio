@@ -12,12 +12,20 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+<<<<<<< HEAD
     {/* Your EmailJS service ID, template ID, and Public Key  */}
+=======
+    // Your EmailJS service ID, template ID, and Public Key 
+>>>>>>> parent of cbf3f2d9 (Updates)
     const serviceId = 'service_xqxi455';
     const templateId = 'template_wclqxei';
     const publicKey = 'weCGYQRWuAkXjvy4z';
 
+<<<<<<< HEAD
     {/* Create an object with EmailJS service ID, template ID, Public Key, and Template params */}
+=======
+    // Create an object with EmailJS service ID, template ID, Public Key, and Template params
+>>>>>>> parent of cbf3f2d9 (Updates)
     const data = {
       service_id: serviceId,
       template_id: templateId,
@@ -30,7 +38,11 @@ export const Contact = () => {
       }
     };
 
+<<<<<<< HEAD
     {/* Send the email using EmailJS API */}
+=======
+    // {/* Send the email using EmailJS API */}
+>>>>>>> parent of cbf3f2d9 (Updates)
     try {
       const res = await axios.post("https://api.emailjs.com/api/v1.0/email/send", data);
       console.log(res.data);
