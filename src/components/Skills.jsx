@@ -15,7 +15,7 @@ export const Skills = () => {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
                 <p className='text-4xl font-bold border-b-4 border-red-600'>Skills</p>
-                <p className='py-4'>// These are some of the technologies I have learned and worked with.</p>
+                <p className='py-4'>These are some of the technologies I have learned and worked with.</p>
             </div>
 
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>

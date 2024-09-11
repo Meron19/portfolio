@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import emailjs from '@emailjs/browser';
+{/* import emailjs from 'emailjs-com'; */}
 import axios from 'axios';
 
 
@@ -12,12 +12,12 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Your EmailJS service ID, template ID, and Public Key
+    {/* Your EmailJS service ID, template ID, and Public Key  */}
     const serviceId = 'service_xqxi455';
     const templateId = 'template_wclqxei';
     const publicKey = 'weCGYQRWuAkXjvy4z';
 
-    // Create an object with EmailJS service ID, template ID, Public Key, and Template params
+    {/* Create an object with EmailJS service ID, template ID, Public Key, and Template params */}
     const data = {
       service_id: serviceId,
       template_id: templateId,
@@ -30,7 +30,7 @@ export const Contact = () => {
       }
     };
 
-    // Send the email using EmailJS
+    {/* Send the email using EmailJS API */}
     try {
       const res = await axios.post("https://api.emailjs.com/api/v1.0/email/send", data);
       console.log(res.data);
@@ -47,7 +47,7 @@ export const Contact = () => {
       <form onSubmit={handleSubmit} className='flex flex-col max-w-[600px] w-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-red-600 text-gray-300'>Contact</p>
-          <p className='text-gray-300 py-4'>// Submit the form below or shoot me an email - meronamershaoo@gmail.com</p>
+          <p className='text-gray-300 py-4'>Submit the form below or shoot me an email - meronamershaoo@gmail.com</p>
         </div>
         <input
           className='bg-[#ccd6f6] p-2'
