@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-{/* import emailjs from 'emailjs-com'; */}
 import axios from 'axios';
 
+// import emailjs from 'emailjs-com';
 
 export const Contact = () => {
 
